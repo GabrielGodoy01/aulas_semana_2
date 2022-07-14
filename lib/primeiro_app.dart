@@ -1,4 +1,4 @@
-import 'package:aulas_flutter/pages/home_page.dart';
+import 'package:aulas_flutter/modules/home/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 class PrimeiroApp extends StatelessWidget {

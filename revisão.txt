@@ -1,0 +1,13 @@
+Widgets:
+    - MaterialApp vs CupertinoApp
+    - Scaffold
+    - AppBar
+    - Column
+    - Row
+    - Container
+    - Icon
+    - Text
+    - Padding
+    - ListView
+
+Organização de widgets em arquivos -> macro widgets
