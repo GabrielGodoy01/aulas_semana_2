@@ -25,6 +25,10 @@ class _HomePageState extends State<HomePage>
 
   @override
   Widget build(BuildContext context) {
+    print(MediaQuery.of(context).size.height);
+    print(MediaQuery.of(context).size.width);
+    print(MediaQuery.of(context).devicePixelRatio);
+    print(MediaQuery.of(context).size.height);
     List<String> listString = ['Cappuccino', 'Café', 'Leite'];
     return Scaffold(
       backgroundColor: Colors.brown.shade200,

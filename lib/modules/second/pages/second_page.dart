@@ -16,25 +16,16 @@ class _SecondPageState extends State<SecondPage> {
     return Scaffold(
       backgroundColor: Colors.black,
       body: Column(children: [
-        const IconButtonSecondWidget(),
-        const SizedBox(
-          height: 300,
+        Expanded(
+          child: Container(
+            decoration: BoxDecoration(color: Colors.green),
+          ),
         ),
-        Text(
-          numero.toString(),
-          style: const TextStyle(color: Colors.white, fontSize: 50),
+        Expanded(
+          child: Container(
+            decoration: BoxDecoration(color: Colors.pink),
+          ),
         ),
-        IconButton(
-            onPressed: () {
-              setState(() {
-                numero++;
-              });
-            },
-            icon: const Icon(
-              Icons.add,
-              size: 100,
-              color: Colors.white,
-            ))
       ]),
     );
   }
